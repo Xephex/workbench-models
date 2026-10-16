@@ -1,0 +1,6 @@
+model: qwen3-rerank-4b
+source: https://huggingface.co/Voodisss/Qwen3-Reranker-4B-GGUF-llama_cpp at revision 1b452c803342e73ac3644551b727dfd51a09fd5b
+license: Apache-2.0 (text in LICENSE; the source repository ships no license file)
+changes: workbench (tools/publish_model.py) split each file into 99614720-byte parts named <file>.partNNN; joining the parts in order gives back the original file.
+files:
+  Qwen3-Reranker-4B-Q4_K_M.gguf  2496717440 bytes  sha256 2a693b22cc8122353562c2d261a3894301c14c6eecce7304bc29968f8994258b
