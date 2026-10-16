@@ -1,0 +1,6 @@
+model: qwen3-embed-4b
+source: https://huggingface.co/Qwen/Qwen3-Embedding-4B-GGUF at revision f4602530db1d980e16da9d7d3a70294cf5c190be
+license: Apache-2.0 (text in LICENSE; the source repository ships no license file)
+changes: workbench (tools/publish_model.py) split each file into 99614720-byte parts named <file>.partNNN; joining the parts in order gives back the original file.
+files:
+  Qwen3-Embedding-4B-Q4_K_M.gguf  2496703776 bytes  sha256 2b0cf8f17b4c723c27303015383c27ec4bf2d8314bb677d05e920dd70bb0f16b
